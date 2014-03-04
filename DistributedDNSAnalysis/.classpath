@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="de/sec/dns/playground/ARFFCombiner.java|de/sec/dns/playground/ARFFMapper.java|de/sec/dns/playground/ARFFOutputFormat.java|de/sec/dns/playground/ARFFReducer.java|de/sec/dns/playground/ARFFTool.java|de/sec/dns/playground/HugeArraysTest.java|de/sec/dns/playground/|de/sec/dns/openworld/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/lib/jackson-core-asl-1.0.1.jar"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/lib/jackson-mapper-asl-1.0.1.jar"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/hadoop/build/hadoop-0.20.3-dev-core.jar" sourcepath="/WORKSPACE_DNSANALYSE/hadoop/src/mapred"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/patricia-trie/patricia-trie-0.2.jar" sourcepath="/WORKSPACE_DNSANALYSE/patricia-trie-0.2/api"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/trove-3.0.3/3.0.3/lib/trove-3.0.3.jar" sourcepath="/WORKSPACE_DNSANALYSE/trove-3.0.3/3.0.3/trove-3.0.3-src.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/dh/Repositories/uni-dns/code/workspace/trove-3.0.3/javadocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/commons-cli2/target/commons-cli2-2.0-SNAPSHOT.jar" sourcepath="/WORKSPACE_DNSANALYSE/commons-cli2/src"/>
+	<classpathentry kind="var" path="WORKSPACE_DNSANALYSE/weka/weka.jar" sourcepath="/WORKSPACE_DNSANALYSE/weka/weka-src.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
